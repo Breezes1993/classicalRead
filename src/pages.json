@@ -1,9 +1,12 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "十分阅读古籍网",
+				"usingComponents": {
+					"van-tree-select": "/wxcomponents/@vant/weapp/tree-select/index"
+				}
 			}
 		}
 	],
@@ -11,6 +14,33 @@
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-button": "wxcomponents/@vant/weapp/button/index",
+			"van-datetime-picker": "wxcomponents/@vant/weapp/datetime-picker/index",
+			"van-area": "wxcomponents/@vant/weapp/area/index",
+			"van-checkbox": "wxcomponents/@vant/weapp/checkbox/index",
+			"van-checkbox-group": "wxcomponents/@vant/weapp/checkbox-group/index",
+			"van-picker": "wxcomponents/@vant/weapp/picker/index",
+			"van-cell": "wxcomponents/@vant/weapp/cell/index",
+			"van-cell-group": "wxcomponents/@vant/weapp/cell-group/index",
+			"van-popup": "wxcomponents/@vant/weapp/popup/index",
+			"van-tabs": "wxcomponents/@vant/weapp/tabs/index",
+			"van-tab": "wxcomponents/@vant/weapp/tab/index",
+			"van-radio": "wxcomponents/@vant/weapp/radio/index",
+			"van-radio-group": "wxcomponents/@vant/weapp/radio-group/index",
+			"van-tag": "wxcomponents/@vant/weapp/tag/index",
+			"van-field": "wxcomponents/@vant/weapp/field/index",
+			"van-toast": "wxcomponents/@vant/weapp/toast/index",
+			"van-switch": "wxcomponents/@vant/weapp/switch/index",
+			"van-divider": "wxcomponents/@vant/weapp/divider/index",
+			"van-action-sheet": "wxcomponents/@vant/weapp/action-sheet/index",
+			"van-dialog": "wxcomponents/@vant/weapp/dialog/index",
+			"van-swipe-cell": "wxcomponents/@vant/weapp/swipe-cell/index",
+			"van-index-bar": "wxcomponents/@vant/weapp/index-bar/index",
+			"van-index-anchor": "wxcomponents/@vant/weapp/index-anchor/index",
+			"van-loading": "wxcomponents/@vant/weapp/loading/index",
+			"van-tree-select": "wxcomponents/@vant/weapp/tree-select/index"
+		}
 	}
 }
